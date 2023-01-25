@@ -10,7 +10,7 @@ export default function TextForm(props) {
     setText(newText);
   }
 
-  const handleLowerCase = ()=>{
+  const handleLowerCase = ()=>{ 
 
   let newText = text.toLowerCase();
   setText(newText);
